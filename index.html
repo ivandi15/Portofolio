@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Code_Van</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+<style>
+  .download-btn:hover {
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="images/logo2.png" alt="Logo">Code_Van
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="custom-toggler">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1 id="typed-text" class="display-4" style="white-space: pre-wrap;"></h1>
+      <p class="lead">Welcome to my Portfolio Website.</p>
+      <a href="document/CV_Ivandi_Lukito_Saputro.pdf" class="btn btn-primary mt-3 download-btn" style="background-color: #003366; border-color: #003366;"><i class="fas fa-download me-2"></i>Download CV</a>
+      <div class="social-icons mt-3">
+        <a href="https://github.com/ivandi15" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ivandi-saputro-987b6624a?trk=contact-info" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ivandilukito16@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+  
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container section-box">
+      <h2 class="mb-4">About Me</h2>
+      <p>Saya adalah seorang front-end web developer yang suka mempelajari hal-hal baru, terutama dalam hal mendesain antarmuka yang menarik, responsif, dan mudah digunakan. Meskipun saya masih dalam tahap proses belajar, saya selalu mengasah kemampuan saya dalam HTML, CSS, JavaScript, dan PHP untuk menciptakan pengalam seorang front-end.</p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container section-box text-center">
+      <h2 class="mb-4">Skills</h2>
+      <div class="row justify-content-center skill-icons">
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/html.png" alt="HTML" class="img-fluid skill-hover">
+          <p>HTML</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/css.jpeg" alt="" class="img-fluid skill-hover">
+          <p>CSS</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/js.png" alt="JavaScript" class="img-fluid skill-hover">
+          <p>JavaScript</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/b.jpeg" alt="Bootstrap" class="img-fluid skill-hover">
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/php.png" alt="PHP" class="img-fluid skill-hover">
+          <p>PHP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container section-box">
+    <h2 class="mb-4 text-center">My Projects</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+        <div class="card project-card h-100 border border-white">
+          <img src="images/krsjawa3.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Berpartisipasi dalam Pengembangan Web untuk KRS Jawa III</h5>
+            <p class="card-text">Situs web pribadi untuk menampilkan proyek-proyek terbaik.</p>
+            <a href="https://www.krsjawa3.com/" class="btn btn-outline-primary btn-sm">Lihat Proyek</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card project-card h-100 border border-primary">
+          <img src="images/resto.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Membangn Tampilan Web Statis</h5>
+            <p class="card-text">Aplikasi e-commerce dengan Bootstrap dan JavaScript.</p>
+            <a href="https://ivandi15.github.io/Projek-Web-Statis-PWC/" class="btn btn-outline-primary btn-sm">Lihat Proyek</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  <div class="section-divider"></div>
+
+  <!-- Certificate Section -->
+  <section id="certificates" class="py-5">
+    <div class="container section-box">
+      <h2 class="mb-4">Certificates</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card project-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Belajar Dasar Pemrograman JavaScript</h5>
+              <p class="card-text">Sertifikat ini memverifikasi penyelesaian kursus pengenalan javascript.</p>
+              <a href="document/sertifikat_baru_course_256_4313613_261224123545.pdf" class="btn btn-outline-primary btn-sm">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card project-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Internship Program – BP3KP Jawa III Yogyakarta</h5>
+              <p class="card-text">Sertifikat ini memverifikasi penyelesaian program magang di BP3KP Jawa III Yogyakarta.</p>
+              <a href="document/Surat_Keterangan_PUPR.pdf" class="btn btn-outline-primary btn-sm">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4 position-relative">
+    <img src="images/logo2.png" alt="Left Decoration" class="position-absolute start-0 top-50 translate-middle-y d-none d-md-block" style="height: 80px; left: 0; margin-left: 40px;">
+    <img src="images/logo2.png" alt="Right Decoration" class="position-absolute end-0 top-50 translate-middle-y d-none d-md-block" style="height: 80px; right: 0; margin-right: 40px;">
+    <div class="container">
+      <p class="mb-1">Terima kasih telah mengunjungi portofolio saya.</p>
+      <small>&copy; 2025 Ivandi Lukito Saputro.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
