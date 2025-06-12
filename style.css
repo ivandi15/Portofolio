@@ -54,6 +54,11 @@
       padding: 160px 0 80px;
       background: linear-gradient(135deg, #00f 0%, #0ff 100%);
     }
+    .download-btn:hover {
+        background-color: white !important;
+        color: black !important;
+        border-color: white !important;
+    }
     .skill-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
