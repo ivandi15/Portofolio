@@ -9,7 +9,6 @@
       padding: 10px;
       font-size: 1.5rem;
     }
-
     .navbar-toggler .icon-bar {
       display: block;
       width: 25px;
@@ -18,23 +17,18 @@
       margin: 5px auto;
       transition: transform 0.4s, opacity 0.4s;
     }
-
     .navbar-toggler.open .icon-bar:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
     }
-
     .navbar-toggler.open .icon-bar:nth-child(2) {
       opacity: 0;
     }
-
     .navbar-toggler.open .icon-bar:nth-child(3) {
       transform: rotate(-45deg) translate(6px, -6px);
     }
-
     .navbar-toggler.animate .icon-bar {
       animation: rotateIcon 0.4s ease-in-out;
     }
-
     @keyframes rotateIcon {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
@@ -137,4 +131,23 @@
     }
     .section-box h2 {
       text-align: center;
+    }
+    .typed-text-container {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 10px;
+      height: 2rem;
+    }
+
+    .typed-text {
+      display: inline-block;
+      border-right: 2px solid #666;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #666; }
     }

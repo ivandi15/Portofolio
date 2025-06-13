@@ -48,3 +48,40 @@
       }
     });
   });
+  
+  // Animasi ketikan bergantian di section About Me
+  const words = ["Front-end Development", "Responsive Design", "Databases"];
+    let i = 0;
+    let j = 0;
+    let currentWord = '';
+    let isDeleting = false;
+    const speed = 150;
+
+    function typeEffect() {
+      const element = document.getElementById('typing-text');
+      if (i < words.length) {
+        if (!isDeleting && j <= words[i].length) {
+          currentWord = words[i].substring(0, j++);
+          element.textContent = currentWord;
+        }
+
+        if (isDeleting && j >= 0) {
+          currentWord = words[i].substring(0, j--);
+          element.textContent = currentWord;
+        }
+
+        if (!isDeleting && j === words[i].length + 1) {
+          isDeleting = true;
+          setTimeout(typeEffect, 1000);
+          return;
+        }
+
+        if (isDeleting && j === 0) {
+          isDeleting = false;
+          i = (i + 1) % words.length;
+        }
+      }
+      setTimeout(typeEffect, speed);
+    }
+
+    document.addEventListener("DOMContentLoaded", typeEffect);
