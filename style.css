@@ -1,4 +1,4 @@
-    body {
+body {
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(135deg, #0ff 0%, #00f 100%);
       color: white;
@@ -150,4 +150,14 @@
     @keyframes blink-caret {
       from, to { border-color: transparent; }
       50% { border-color: #666; }
+    }
+    .col-md-5.text-center img.rounded-circle {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+    .section-box .list-unstyled a:hover {
+      text-decoration: underline;
+      color: #fff;
+      border-bottom: 2px solid #ffb300;
+      transition: border-bottom 0.2s;
     }

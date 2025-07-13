@@ -27,6 +27,7 @@
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -52,10 +53,22 @@
   <!-- About Section -->
   <section id="about" class="py-5">
     <div class="container section-box">
-      <h2 class="mb-4">About Me</h2>
-      <p>Saya adalah seorang front-end web developer yang suka mempelajari hal-hal baru, terutama dalam hal mendesain antarmuka yang menarik, responsif, dan mudah digunakan. Meskipun saya masih dalam tahap proses belajar, saya selalu mengasah kemampuan saya dalam HTML, CSS, JavaScript, dan PHP untuk menciptakan pengalam seorang front-end.</p>
-      <div class="typed-text-container">
-        <span class="typed-text" id="typing-text"></span>
+      <div class="row align-items-center">
+        <!-- Foto Profil untuk mobile -->
+        <div class="col-12 d-block d-md-none text-center mb-4">
+          <img src="images/DSC_80201.jpg" alt="Foto Profil" class="img-fluid rounded-circle shadow" style="max-width: 220px; aspect-ratio: 1 / 1; object-fit: cover;">
+        </div>
+        <div class="col-md-7 order-2 order-md-1">
+          <h2 class="mb-4">About Me</h2>
+          <p>Saya adalah seorang front-end web developer yang suka mempelajari hal-hal baru, terutama dalam hal mendesain antarmuka yang menarik, responsif, dan mudah digunakan. Meskipun saya masih dalam tahap proses belajar, saya selalu mengasah kemampuan saya dalam HTML, CSS, JavaScript, dan PHP untuk menciptakan pengalam seorang front-end.</p>
+          <div class="typed-text-container">
+            <span class="typed-text" id="typing-text"></span>
+          </div>
+        </div>
+        <!-- Foto Profil untuk desktop -->
+        <div class="col-md-5 d-none d-md-block text-center order-1 order-md-2">
+          <img src="images/DSC_80201.jpg" alt="Foto Profil" class="img-fluid rounded-circle shadow" style="max-width: 220px; aspect-ratio: 1 / 1; object-fit: cover;">
+        </div>
       </div>
     </div>
   </section>
@@ -185,6 +198,54 @@
               <a href="document/Surat_Keterangan_PUPR.pdf" class="btn btn-outline-primary btn-sm">Lihat Sertifikat</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container section-box" >
+      <h2 class="mb-4 text-center fw-bold">Contact</h2>
+      <div class="row text-white">
+        <!-- About Us -->
+        <div class="col-md-4 mb-4">
+          <h3 class="fw-bold mb-2" style="letter-spacing:1px;">About Us</h3>
+          <div style="width:50px;height:3px;background:#ffb300;margin-bottom:16px;"></div>
+          <p style="font-size:1.1rem;line-height:1.7;">
+            Saya adalah seorang front-end web developer yang suka mempelajari hal-hal baru, terutama dalam hal mendesain antarmuka yang menarik, responsif, dan mudah digunakan.
+          </p>
+          <div class="d-flex gap-2 mt-4">
+            <a href="https://facebook.com/ivandi.saputro" target="_blank" class="btn btn-dark rounded-2 px-3 py-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/ivandi15" target="_blank" class="btn btn-dark rounded-2 px-3 py-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/ivandi15" target="_blank" class="btn btn-dark rounded-2 px-3 py-2"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ivandi-saputro-987b6624a?trk=contact-info" target="_blank" class="btn btn-dark rounded-2 px-3 py-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/ivandi15" target="_blank" class="btn btn-dark rounded-2 px-3 py-2"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h3 class="fw-bold mb-2" style="letter-spacing:1px;">Quick Links</h3>
+          <div style="width:50px;height:3px;background:#ffb300;margin-bottom:16px;"></div>
+          <ul class="list-unstyled" style="font-size:1.1rem;">
+            <li class="mb-2"><a href="#about" style="color:#bdbdbd;text-decoration:none;">About</a></li>
+            <li class="mb-2"><a href="#skills" style="color:#bdbdbd;text-decoration:none;">Skills</a></li>
+            <li class="mb-2"><a href="#projects" style="color:#bdbdbd;text-decoration:none;">Projects</a></li>
+            <li class="mb-2"><a href="#certificates" style="color:#bdbdbd;text-decoration:none;">Certificates</a></li>
+          </ul>
+        </div>
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h3 class="fw-bold mb-2" style="letter-spacing:1px;">Contact Info</h3>
+          <div style="width:50px;height:3px;background:#ffb300;margin-bottom:16px;"></div>
+          <p class="mb-2" style="color:#bdbdbd;">
+            <i class="fas fa-map-marker-alt me-2"></i> Cangkringan Sleman Yogyakarta
+          </p>
+          <p style="color:#bdbdbd;">
+            <i class="fas fa-envelope me-2"></i> ivandilukito16@gmail.com
+          </p>
         </div>
       </div>
     </div>
