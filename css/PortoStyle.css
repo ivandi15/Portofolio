@@ -1,0 +1,163 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0ff 0%, #00f 100%);
+      color: white;
+    }
+    .navbar-toggler {
+      border: none;
+      background: transparent;
+      padding: 10px;
+      font-size: 1.5rem;
+    }
+    .navbar-toggler .icon-bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #000;
+      margin: 5px auto;
+      transition: transform 0.4s, opacity 0.4s;
+    }
+    .navbar-toggler.open .icon-bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    .navbar-toggler.open .icon-bar:nth-child(2) {
+      opacity: 0;
+    }
+    .navbar-toggler.open .icon-bar:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+    .navbar-toggler.animate .icon-bar {
+      animation: rotateIcon 0.4s ease-in-out;
+    }
+    @keyframes rotateIcon {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .navbar {
+      background: linear-gradient(135deg, #0ff 0%, #00f 100%);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    
+    footer, .card {
+      background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+    .hero {
+      padding: 160px 0 80px;
+      background: linear-gradient(135deg, #00f 0%, #0ff 100%);
+    }
+    .download-btn:hover {
+        background-color: white !important;
+        color: black !important;
+        border-color: white !important;
+    }
+    .skill-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .skill-hover:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+    .contact-icon {
+      margin-right: 8px;
+      color: #0ff;
+    }
+    .navbar-brand img {
+      height: 50px;
+      margin-right: 10px;
+    }
+    .nav-link, .card-text, .card-title, h2, h1, p, a {
+      color: white !important;
+    }
+    .btn-outline-primary {
+      border-color: #0ff;
+      color: #0ff;
+    }
+    .btn-outline-primary:hover {
+      background-color: rgb(98, 202, 202);
+      color: #000;
+    }
+    .nav-link:hover {
+      border: 2px solid #0ff;
+      border-radius: 5px;
+      padding: 4px 10px;
+      color: white !important;
+    }
+    .section-divider {
+      height: 2px;
+      background-color: white;
+      margin: 50px auto;
+      width: 80%;
+    }
+    .section-box {
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    #typed-text {
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #fff;
+      font-family: monospace;
+    }
+    .social-icons a {
+      margin-right: 15px;
+      color: rgb(0, 0, 0) !important;
+      font-size: 1.5rem;
+    }
+    .social-icons a:hover {
+      color: white !important;
+    }
+    .skill-icons img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .skill-icons img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .section-box h2 {
+      text-align: center;
+    }
+    .typed-text-container {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 10px;
+      height: 2rem;
+    }
+
+    .typed-text {
+      display: inline-block;
+      border-right: 2px solid #666;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #666; }
+    }
+    .col-md-5.text-center img.rounded-circle {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+    .section-box .list-unstyled a:hover {
+      text-decoration: underline;
+      color: #fff;
+      border-bottom: 2px solid #ffb300;
+      transition: border-bottom 0.2s;
+    }
